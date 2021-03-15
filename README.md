@@ -24,7 +24,7 @@ El frontend se encuentra en la siguiente ruta: `src/main/webapp`
 
 # Desarrollo
 **Backend**
-Ejecutar el siguiente comando.
+Ejecutar el siguiente comando, en la carpeta del proyecto
 ```
 ./gradlew bootRun
 ```
@@ -35,12 +35,13 @@ cd src/main/webapp
 npm run start
 ```
 # Generación de la Aplicación
+Ejecutar el siguiente comando, en la carpeta del proyecto
 ```
 ./gradlew clean build
 ```
 En la siguiente ruta `build/libs` se genera el artefacto. Es un **JAR** auto-ejecutable que contiene la aplicación backend y frontend.
 
-Para ejecutar el **JAR** utilizar el siguiente comando.
+Para ejecutar el **JAR** utilizar el siguiente comando, en la ruta `build/libs`
 ```
 java -jar notes-0.0.1-SNAPSHOT.jar
 ```
